@@ -1,6 +1,11 @@
+# blckheck.sh v1.0
+# Vahit GÜMÜŞ - https://www.vaihtgumus.com
+# Created  by Vahit GÜMÜŞ 04.2012   Check ip address is listed or mot  in blaclist sites
+
+
+
 #!/bin/bash
-#edited by vahit 04.2012   Check ip address is listed or mot  in blaclist sites
-.#clear
+
 if [ $# -eq 0 ]; then
 echo -n "Enter the IP Address of Mail Server:"
 #read the IP from cmd line
